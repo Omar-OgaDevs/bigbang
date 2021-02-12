@@ -4,30 +4,80 @@
         <meta charset="utf-8" />
         <title>Everyone has a start!</title>
     </head>
+<nav>
+    <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Servicios</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><a href="#">Blog</a></li>
+    </ul>
+</nav>
 <body>
-<h1>Everyone has a start!</h1>
-    <p>Cada uno tiene un comienzo, y este es el mio como desarrollador.</p>
-<h2>En el comienzo todo es Caos.</h2>
-    <p>Desorden, confusion, etc., es parte escencial del aprendizaje.</p>
-<h3>El órden del Caos.</h3>
+    <header>    
+        <h1>Everyone has a start!</h1>
+        <p>Cada uno tiene un comienzo, y este es el mio como desarrollador.</p>
+    </header>
+<main>
+    <article>
+        <h2>En el comienzo todo es Caos.</h2>
+        <p>Desorden, confusion, etc., es parte escencial del aprendizaje.</p>
+    </article>
+    <article>
+        <h2>El órden del Caos.</h2>
     <p>A medida que uno va progresando, la confusion y el desorden se desvanecen.</p>
+    </article>
 <h3>Objetivos:</h3>
 <ul><strong>Frontend:</strong>
     <br></br> 
     <li>HTML</li>
     <li>CSS</li>
-    <li>JavaScript</li>
-    <li>TypeScript</li>
     <li>Angular</li>
-    <li>Spring5</li>
+    <li>TypeScript</li>
 </ul>
 <ul><strong>Backend:</strong>
     <br></br>
     <li>.NET</li>
+    <li>ASP.NET</li>
     <li>C#</li>
     <li>mySQL</li>
     <li>PHP</li>
 </ul>
+<h2>Formulario</h2>
+
+<form id="form-order">
+
+<p>
+<label for="name">Nombre (Obligatorio):</label>
+<input type="text" name="name" id="name"
+placeholder="Tu Nombre"
+autofocus
+autocomplete
+required>
+</p>
+
+<p>
+<label for="passwd">Contraseña:</label>
+<input type="password" name="passwd" id="passwd"
+placeholder="qwe1234"
+pattern="[a-z] {3} [0-9] {4}"/> (La contraseña debe tener 3 numeros y 4 letras)
+</p>
+
+<p>
+<label for="phone">Teléfono:</label>
+<input type="tel" name="phone" id="phone" placeholder="5512345678"
+</p>
+
+<p>
+<label for="email">E-mail:</label>
+<input type="email" name="email" id="email" placeholder="me@email.com"
+</p>
+
+<input type="submit" value="Enviar">
+</form>
+
+</main>
 </body>
-<footer>Omar García López</footer>
+<footer>
+    <p>OGADevs</p>
+</footer>
 </html>
