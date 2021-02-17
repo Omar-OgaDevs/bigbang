@@ -1,83 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>    
-    <meta charset="utf-8" />
-    <title>Everyone has a start!</title>
-<link href="styles.css" rel="stylesheet"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Desarrollo Web OGADevs">
+    <meta name="keywords" content="HTML, CSS. ANGULAR, JS, OGADEVS">
+    <meta name="author" content="Omar García López">
+    <title>OGADevs Desarrollo Web</title>
+    <link rel="stylesheet" href="./css/index_style.css">
 </head>
-<nav>
-    <ul>
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Servicios</a></li>
-    <li><a href="#">Contacto</a></li>
-    <li><a href="#">Blog</a></li>
-    </ul>
-</nav>
+
 <body>
-    <header>    
-        <h1>Everyone has a start!</h1>
-        <p>Cada uno tiene un comienzo, y este es el mio como desarrollador web.</p>
+    <header id="mainHeader">
+        <div class="container">
+        <h1>OGADevs | Desarrollo Web</h1>
+        </div>
     </header>
-<main>
-    <article>
-        <h2>En el comienzo todo es Caos.</h2>
-        <p>Desorden, confusion, etc., es parte escencial del aprendizaje.</p>
-    </article>
-    <article>
-        <h2>El órden del Caos.</h2>
-    <p>A medida que uno va progresando, la confusion y el desorden se desvanecen.</p>
-    </article>
-<h3>Objetivos:</h3>
-<ul><strong>Frontend:</strong>
-    <br></br> 
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Angular</li>
-    <li>TypeScript</li>
-</ul>
-<ul><strong>Backend:</strong>
-    <br></br>
-    <li>.NET</li>
-    <li>ASP.NET</li>
-    <li>C#</li>
-    <li>mySQL</li>
-    <li>PHP</li>
-</ul>
-</main>
-<h2>Formulario</h2>
-<form id="form-order">
 
-<p>
-<label for="name">Nombre (Obligatorio):</label>
-<input type="text" name="name" id="name"
-placeholder="Tu Nombre"
-autofocus
-autocomplete
-required>
-</p>
+    <nav id="mainNav">
+        <div class="container">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<p>
-<label for="passwd">Contraseña:</label>
-<input type="password" name="passwd" id="passwd"
-placeholder="qwe1234"
-pattern="[a-z] {3} [0-9] {4}"/> (La contraseña debe tener 3 letras y 4 números)
-</p>
+    <section id="jumbo">
+        <div class="container">
+            <h1>Codificamos la vision de tus proyectos con las herramientas del futuro.</h1>
+        </div>
+    </section>
 
-<p>
-<label for="phone">Teléfono:</label>
-<input type="tel" name="phone" id="phone" placeholder="5512345678"
-</p>
+    <div class="container">
+        <aside id="sidebar">
+            <p>Soluciones:<br>Front-end<br>Back-End</p>
+        </aside>
+        <section id="main">
+            <h2>Programando el futuro</h2>
+            <p>Para que el futuro nos sea más benevolente debemos empezar hoy a perseguirlo, creando para nosotros un camino que pueda
+            llevarnos hacia el lugar donde queramos estar el día de mañana.</p>
+        </section>
+        <div class="clearFix"></div>
+        <div id="pExample">
+            <span>Span 1</span>
+            <span>Span 2</span>
+        </div>
+    </div>
 
-<p>
-<label for="email">E-mail:</label>
-<input type="email" name="email" id="email" placeholder="me@email.com"
-</p>
+    <div id="fixed">Fixed Element</div>
 
-<input type="submit" value="Enviar">
-</form>
+    <footer id="mainFooter">
+        <p>Copyright &copy; 2021 OGADevs</p>
+    </footer>
 
-<footer>
-    <p>OGADevs</p>
 </body>
-</footer>
 </html>
